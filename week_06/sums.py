@@ -22,5 +22,5 @@ def running_sum(values):
     >>> some_list
     [4, 4, 6, 1, 1]
     """
-    for i in range(1, len(values)):
-        values[i] = values[i - 1] + values[i]
+    for value in range(1, len(values)):
+        values[value] = values[value - 1] + values[value]
