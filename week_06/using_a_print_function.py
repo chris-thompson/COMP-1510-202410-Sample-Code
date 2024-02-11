@@ -8,4 +8,3 @@ def my_printer(value):
     Prints the specified value.
     """
     print(value)
-
