@@ -2,9 +2,9 @@
 An instructor gives five-point quizzes that are assigned letter grades
 according to the scale: 5 -> A, 4 -> B, 3 -> C, 2 -> D, 1 -> F, 0 -> F.
 
-Write a program that takes a quiz score as input and prints the grade.
+THis program takes a quiz score as input and prints the grade.
 
-Your program should work like this:
+The program works like this:
     >> Enter the quiz score: 3
     >> The letter grade is: C
 """

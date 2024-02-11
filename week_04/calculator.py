@@ -30,11 +30,11 @@ def prepend(first, second):
 
 
 def main():
-    a = int(input("Enter an integer: "))
-    b = int(input("Enter an integer: "))
-    c = add
-    print(operate(c, a, b))
-    print(operate(add, a, b))
+    first_value = int(input("Enter an integer: "))
+    second_value = int(input("Enter an integer: "))
+    alias_for_add_function = add
+    print(operate(alias_for_add_function, first_value, second_value))
+    print(operate(add, first_value, second_value))
 
 
 if __name__ == "__main__":

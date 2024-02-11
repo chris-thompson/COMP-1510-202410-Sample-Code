@@ -20,10 +20,3 @@ average = (test_1 + test_2 + test_3) / 3
 
 # Print the average.
 print('The average score is', average)
-
-# If the average is a high score,
-# congratulate the user.
-if average >= high_score:
-    print('Congratulations!')
-    print('That is a great average!')
-

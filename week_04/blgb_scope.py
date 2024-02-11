@@ -1,7 +1,7 @@
 """
-When we talk about scope, we talk about LEGB:
- 1. Local
- 2. Enclosing
+When we talk about scope, we talk about BLGB:
+ 1. Block
+ 2. Local
  3. Global
  4. then Built-in scopes.
 

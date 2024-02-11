@@ -1,7 +1,7 @@
 """Module to demonstrate how to comment a function."""
 
 
-def add_ints(a, b):
+def add_ints(first, second):
     """
     Return the sum of the two arguments.
 
@@ -25,14 +25,14 @@ def add_ints(a, b):
     The return tag describes what is returned.  If nothing is returned, None is implicitly returned (and
     we do not need to write a comment for that).
 
-    :param a: an int
-    :param b: an int
-    :precondition: a must be an int
-    :precondition: b must be an int
-    :postcondition: calculate the sum of a and b
-    :return: the sum of the arguments
+    :param first: an int
+    :param second: an int
+    :precondition: first must be an int
+    :precondition: second must be an int
+    :postcondition: calculate the sum of first and second
+    :return: the sum of the arguments as an int
     """
-    total = a + b
+    total = first + second
     return total
 
 

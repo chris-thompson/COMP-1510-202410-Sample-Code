@@ -6,6 +6,9 @@ import calculator
 
 
 def main():
+    """
+    Drive the program.
+    """
     print("I imported calculator.py")
     print(calculator.add(1, 2))
 

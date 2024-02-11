@@ -11,7 +11,7 @@ def average(values):
     :param values: a list of numbers that may contain None
     :precondition: values is a list of numbers and/or None
     :postcondition: values is not modified
-    :return: the average of the non-None numbers in values
+    :return: the average of the non-None numbers in values as a float
 
     >>> average([20, 30])
     25.0

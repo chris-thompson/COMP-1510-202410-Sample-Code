@@ -1,5 +1,7 @@
 def main():
-	"""Execute the program."""
+	"""
+	Drive the program.
+	"""
 	base_10_number = 0
 	base_new = 0
 	max_number = 0

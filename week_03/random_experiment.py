@@ -2,6 +2,9 @@ import random
 
 
 def main():
+    """
+    Drive the program. Let's play with random!
+    """
     my_random = random.randint(0, 10)
     print(my_random)
 

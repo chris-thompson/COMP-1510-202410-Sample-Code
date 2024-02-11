@@ -61,5 +61,3 @@ class Test(TestCase):
         self.assertEqual(expected, argument,
                          "The list contains a mixture of negative values, zeros and"
                          + "positive values.")
-
-

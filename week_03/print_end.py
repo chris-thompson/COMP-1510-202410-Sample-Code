@@ -5,13 +5,14 @@ ends each line.
 
 
 def convert_to_celsius(fahrenheit):
-    """ Return the number of Celsius degrees equivalent
+    """
+    Return the number of Celsius degrees equivalent
     to Fahrenheit degrees.
 
     :param fahrenheit: a floating point number
-    :precondition: Fahrenheit is a float
-    :postcondition: Fahrenheit is converted to Celsius
-    :return: the temperature concverted to Celsius
+    :precondition: fahrenheit is a float
+    :postcondition: fahrenheit is converted to Celsius
+    :return: the temperature concverted to Celsius as a float
 
     >>> convert_to_celsius(75)
     23.88888888888889

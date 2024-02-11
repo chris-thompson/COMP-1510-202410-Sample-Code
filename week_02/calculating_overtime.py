@@ -1,9 +1,9 @@
 """
 Your employer pays time-and-a-half for any hours works above 40 in a single
-week. Write a program to input the number of hours worked, and calculate
+week. This program accepts input for the number of hours worked, and calculates
 the total wages for the week.
 
-The program should work like this:
+The program works like this:
     >> Enter the hourly rate: 12.50
     >> Enter the number of hours worked: 44
     >>

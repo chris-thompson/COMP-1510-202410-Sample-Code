@@ -18,5 +18,4 @@ cat_name_5 = input('Enter the name of cat 5:')
 cat_name_6 = input('Enter the name of cat 6:')
 
 print('The cat names are:')
-print(cat_name_1 + ' ' + cat_name_2 + ' ' + cat_name_3 + ' ' + cat_name_4 + ' '
-      + cat_name_5 + ' ' + cat_name_6)
+print(cat_name_1 + ' ' + cat_name_2 + ' ' + cat_name_3 + ' ' + cat_name_4 + ' ' + cat_name_5 + ' ' + cat_name_6)

@@ -7,7 +7,7 @@ def total_length(first_string, second_string):
     :precondition: some_string is a string
     :precondition: second_string is a string
     :postcondition: calculates the sum length
-    :return: the sum of the lengths
+    :return: the sum of the lengths as an int
 
     >>> total_length('yes', 'no')
     5

@@ -1,6 +1,5 @@
 """
-We can use the type function to find out what data type a variable is bound
-to.
+We can use the type function to find out what data type a variable is bound to.
 """
 
 

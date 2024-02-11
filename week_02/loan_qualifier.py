@@ -8,8 +8,8 @@ the logic down into short, distinct, easy to
 understand steps.
 """
 
-min_salary = 30000.0  # The minimum annual salary
-min_years = 2         # The minimum years on the job
+MINIMUM_SALARY = 30000.0  # The minimum annual salary
+MINIMUM_NUMBER_OF_YEARS = 2         # The minimum years on the job
 
 # Get the customer's annual salary.
 salary = float(input('Enter your annual salary: '))
@@ -19,14 +19,14 @@ years_on_job = int(input('Enter the number of ' +
                          'years employed: '))
 
 # Determine whether the customer qualifies.
-if salary >= min_salary:
-    if years_on_job >= min_years:
+if salary >= MINIMUM_SALARY:
+    if years_on_job >= MINIMUM_NUMBER_OF_YEARS:
         print('You qualify for the loan.')
     else:
         print('You must have been employed'
-              , 'for at least', min_years,
+              , 'for at least', MINIMUM_NUMBER_OF_YEARS,
               'years to qualify.')
 else:
     print('You must earn at least $'
-          , format(min_salary, ',.2f')
+          , format(MINIMUM_SALARY, ',.2f')
           , ' per year to qualify.', sep='')
