@@ -14,7 +14,7 @@ tidier easier to understand and grow!
 """
 
 
-def greet(mode, message):
+def greet(mode, message): # message.mode()
     greeting = mode(message)
     print(greeting)
 
@@ -25,7 +25,7 @@ def main():
     confused_rasp = str.swapcase
 
     user_input = input("What is your announcement: ")
-    greet(whisper, user_input)
+    greet(yell, user_input)
 
 
 if __name__ == "__main__":

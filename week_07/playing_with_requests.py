@@ -15,14 +15,6 @@ import requests
 
 
 def download_page(url: str) -> str:
-    """
-    Download the specified page and return it as a string.
-
-    :param url: The URL to download in string format
-    :postcondition: Print the length and the first 250 character of the web content
-    :postcondition: Create a string representing the URL content
-    :return: A string representing the URL contents
-    """
     res = requests.get(url)
     print(len(res.text))
     print(res.text[:250])  # prints the first 250 characters
@@ -31,9 +23,6 @@ def download_page(url: str) -> str:
 
 
 def main():
-    """
-    Drive the program.
-    """
     value = download_page('https://www.gutenberg.org/files/28054/28054-0.txt')
     print(value)
 
