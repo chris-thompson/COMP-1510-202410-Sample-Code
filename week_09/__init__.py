@@ -19,12 +19,5 @@ contain a file called __init__.py (we call it dunder init, or
 dunder init dunder where dunder means double underscore).
 
 This is a good place to define constants and create objects that
-are used by the entire package. It's usually very "thin".
+are used by the entire package. It's usually very "thin"
 """
-
-import time
-
-CONSTANT_VALUE = "If the implementation is hard to explain, it's a bad idea.\n" \
-                 "If the implementation is easy to explain, it may be a good idea."
-
-execution_time = time.strftime('%H:%M:%S')
