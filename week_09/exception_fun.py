@@ -55,7 +55,7 @@ def another_convert(value):
 
 def yet_another_convert(value):
     """
-    Convert to an integer. Better yet. Clarity and parsimony of code.
+    Convert to an integer. Better yet. Clarity and parsimony of code. But that -1 though...
     """
     try:
         return int(value)
