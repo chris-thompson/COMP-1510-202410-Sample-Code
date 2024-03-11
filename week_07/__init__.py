@@ -20,3 +20,8 @@ dunder init dunder where dunder means double underscore).
 
 Later this term I will show you what we can put in here!
 """
+
+import time
+
+CONSTANT_VALUE = "Diet Coke"
+execution_time = time.time()
