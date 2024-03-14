@@ -76,6 +76,9 @@ def main():
     Drive the program.
     """
     target()
+    # print('Function name:', target.__name__)  # What gets printed?
+    # print('Docstring: ', target.__doc__)  # What gets printed?
+    # print('Module: ', target.__module__)
     print('-' * 10)
     simple_function()
     print('-' * 10)

@@ -90,6 +90,9 @@ def main():
     Drive the program.
     """
     say_cake()
+    print('Function name:', say_cake.__name__)  # What gets printed?
+    print('Docstring: ', say_cake.__doc__)  # What gets printed?
+    print('Module: ', say_cake.__module__)
     greet_with_cake("everyone")
     hi_justin = return_greeting("Justin")
     print(hi_justin)
