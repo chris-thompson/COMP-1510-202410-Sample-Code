@@ -15,3 +15,6 @@ print('Here is the data you entered:')
 print('Name:', name)
 print('Age:', age)
 print('Income:', income)
+
+user_name = input('Enter your name: ')
+print('Hello ', user_name)
