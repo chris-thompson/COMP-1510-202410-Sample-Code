@@ -6,10 +6,10 @@ value = 100000000002343298579239720112089128650169400000112012378532401492475612
 print(value)
 print(type(value))
 
-home = 10
-away = 15
-print(home + away)
-print(type(home + away))
+accounts = 10
+applications = 15
+print(accounts + applications)
+print(type(accounts + applications))
 
 print(10 * 4)
 print(type(10 * 4))
@@ -82,8 +82,8 @@ print(product)
 print('+' * 10)
 
 a_sum = 3.2e4 + 0.00002e-6
-formatString = "%16.20g"
-print(formatString % a_sum)
+format_string = "%16.20g"
+print(format_string % a_sum)
 print(type(a_sum))
 
 print('=' * 10)

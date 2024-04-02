@@ -17,7 +17,7 @@ def timer(func):
     return wrapper_timer
 
 
-def fibonacci_dynamic(nth_term, memory_structure):
+def fibonacci_memoization(nth_term, memory_structure):
     try:
         return memory_structure[nth_term]
     except KeyError:
@@ -27,7 +27,7 @@ def fibonacci_dynamic(nth_term, memory_structure):
         elif nth_term == 1:
             memory_structure[nth_term] = 1
             return memory_structure[nth_term]
-        result = fibonacci_dynamic(nth_term - 1, memory_structure) + fibonacci_dynamic(nth_term - 2, memory_structure)
+        result = fibonacci_memoization(nth_term - 1, memory_structure) + fibonacci_memoization(nth_term - 2, memory_structure)
         memory_structure[nth_term] = result
         return memory_structure[nth_term]
 
@@ -43,7 +43,7 @@ def fibonacci_recursive(nth_term):
 
 @timer
 def fibonacci_manager(nth_term, memory_structure):
-    return fibonacci_dynamic(nth_term, memory_structure)
+    return fibonacci_memoization(nth_term, memory_structure)
 
 
 @timer
