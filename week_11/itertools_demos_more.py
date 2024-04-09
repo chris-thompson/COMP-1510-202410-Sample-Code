@@ -6,7 +6,7 @@ def main():
     Drive the program. Here are some more neat things we can do with itertools.
     """
     # Chain sequences during iteration.
-    chained_iterators = list(itertools.chain([1, 2, 3], [2, 3, 4]))
+    chained_iterators = itertools.chain([1, 2, 3], [2, 3, 4])
     print(chained_iterators)
 
     # Iterate over an element repeated a specific number of times.
@@ -18,7 +18,7 @@ def main():
     dropwhile_values = list(itertools.dropwhile(lambda x: x < 5, values))
     print(dropwhile_values)
 
-    # Iterate over a slice!
+    # # Iterate over a slice!
     sliced_iterator = list(itertools.islice(values, 3, 6))
     print(sliced_iterator)
 

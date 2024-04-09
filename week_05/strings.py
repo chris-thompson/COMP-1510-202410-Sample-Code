@@ -39,6 +39,7 @@ def main():
     print(greeting.upper())
 
     print(type(b'abc'))
+    print(b'abc')
 
     title = 'The Good, The Bad, and the Resourceful'
     print('Source string:', title)

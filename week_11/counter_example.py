@@ -10,7 +10,7 @@ def main():
     print(type(fruit))
     print(fruit['orange'])
 
-    print('fruit.most_common(1):', fruit.most_common(1))
+    print('fruit.most_common(10):', fruit.most_common(10))
 
     some_fruit = collections.Counter(['apple', 'orange', 'pear', 'orange'])
     other_fruit = collections.Counter(['banana', 'apple', 'apple'])

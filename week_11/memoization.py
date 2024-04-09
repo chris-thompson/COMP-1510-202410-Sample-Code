@@ -55,7 +55,7 @@ def main():
     """
     Drive the program. Behold. Memoization!
     """
-    upper_bound = 40  # As upper_bound increases, the time difference does too. Wow!
+    upper_bound = 500  # As upper_bound increases, the time difference does too. Wow!
     print(fibonacci_manager_recursive(upper_bound))
     dynamic_memory = {}
     print(fibonacci_manager(upper_bound, dynamic_memory))

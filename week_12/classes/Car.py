@@ -8,10 +8,10 @@ class Car:
 
     def __init__(self, manufacturer, model, year):
         """Initialize attributes to describe a car."""
-        self.__manufacturer = manufacturer # every car object has its own manufacturer string
-        self.__model = model # every car object has its own model string
-        self.__year = year # every car object has its own year integer
-        self.__odometer_reading = 0 # every car object has its own odometer reading
+        self.__manufacturer = manufacturer  # every car object has its own manufacturer string
+        self.__model = model  # every car object has its own model string
+        self.__year = year  # every car object has its own year integer
+        self.__odometer_reading = 0  # every car object has its own odometer reading
 
     def get_descriptive_name(self):
         """Return a neatly formatted descriptive name."""
@@ -47,8 +47,10 @@ def main():
     Drive the program.
     """
     hot_rod = Car("Mazda", "MX5", 2008)
-    print(hot_rod) # What does this print?
+    print(hot_rod)  # What does this print?
     # hot_rod.__year = 2050 # Don't access dunders directly!
+    print(hot_rod)  # What does this print?
+
     try:
         hot_rod.update_odometer(-1000)
     except ValueError as e:
