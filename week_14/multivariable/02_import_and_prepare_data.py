@@ -7,7 +7,7 @@ import pandas as pd
 
 
 def main():
-    data = pd.read_csv('multivariable/sample_data.csv')
+    data = pd.read_csv('sample_data.csv')
     print(data)
     features = data.iloc[:, :-1].values
     target = data.iloc[:, -1].values
